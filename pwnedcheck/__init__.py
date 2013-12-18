@@ -15,9 +15,9 @@ class InvalidEmail(Exception):
 
 
 def check(email):
-    req = urllib.Request(PWNED_API_URL % urllib.quote(email))
+    req = urllib2.Request(PWNED_API_URL % urllib.quote(email))
     try:
-        resp = urllib.urlopen(req)
+        resp = urllib2.urlopen(req)
         return json.loads(resp.read())
     except urllib2.HTTPError, e:
         if e.code == 400:
