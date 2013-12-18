@@ -24,9 +24,9 @@ If the email address is not found in any of the data leaks, it will return an em
 If the email address is invalid (not properlly formatted), `PwnedCheck` will throw an `InvalidEmail` exception.
 
 
-import pwnedcheck
+    import pwnedcheck
 
-print pwnedcheck.check("foo@bar.com")
+    print pwnedcheck.check("foo@bar.com")
 
 
 
