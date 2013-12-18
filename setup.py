@@ -12,7 +12,7 @@ setup(
     author="Casey Dunham",
     author_email="casey.dunham@gmail.com",
     url="https://github.com/caseydunham/PwnedCheck",
-    license=open("LICENSE.rst.rst").read(),
+    license=open("LICENSE.rst").read(),
     classifiers=(
         "Intended Audience :: Developers",
         "Intended Audience :: End Users/Desktop",
