@@ -39,3 +39,6 @@ nosetests.xml
 # IntelliJ
 .idea/
 *.iml
+
+# OSX
+.DS_Store
